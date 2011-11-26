@@ -1,1 +1,15 @@
-../.gitconfig
+[user]
+	name = Daisuke Fujiwara
+	email = daisuke@nextdoor.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[alias]
+    c = checkout
+    st = status
+    s = status
+    d = diff
+    ds = diff --staged
+    b = branch
+    a = add
