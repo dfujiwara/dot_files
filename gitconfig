@@ -13,3 +13,4 @@
     ds = diff --staged
     b = branch
     a = add
+    l = log

@@ -46,7 +46,4 @@ defmonitor on
 
 # Start up a few commonly used window tabs.
 screen -t vim 0 vim
-screen -t term1 1
-screen -t term2 2
-
-select 1
+screen -t main 1

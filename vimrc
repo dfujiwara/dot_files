@@ -44,3 +44,5 @@ nnoremap T @t
 nnoremap M :marks<NL>
 nnoremap reg :reg<NL>
 filetype plugin on
+
+set laststatus=2
