@@ -17,6 +17,15 @@ au FileType py set smartindent
 au FileType py set textwidth=79 " PEP-8 Friendly
 au FileType py set foldmethod=indent
 
+au FileType coffee set shiftwidth=2
+au FileType coffee set tabstop=2
+
+au FileType javascript set shiftwidth=2
+au FileType javascript set tabstop=2
+
+au BufRead,BufNewFile *.json set filetype=json
+au! Syntax json source /Users/daisukefujiwara/.vim/ftplugin/json.vim
+
 " NERD_tree config
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
