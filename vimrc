@@ -23,6 +23,9 @@ au FileType coffee set tabstop=2
 au FileType javascript set shiftwidth=2
 au FileType javascript set tabstop=2
 
+au FileType htmldjango set shiftwidth=2
+au FileType htmldjango set tabstop=2
+
 au BufRead,BufNewFile *.json set filetype=json
 au! Syntax json source /Users/daisukefujiwara/.vim/ftplugin/json.vim
 
