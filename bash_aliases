@@ -1,6 +1,7 @@
 alias vimr="vim -R"
 alias screen="screen -c ~/.screenrc-local"
 alias h="heroku"
+alias j="jitsu"
 alias js="cd ~/src/nextdoor.com/static/js"
 alias css="cd ~/src/nextdoor.com/static/css"
 alias templates="cd ~/src/nextdoor.com/templates/nextdoor"
