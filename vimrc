@@ -1,3 +1,7 @@
+filetype plugin on
+let g:pydiction_location='/home/dfujiwara/.vim/pydiction-1.2/complete-dict'
+let g:pydiction_menu_height = 20
+
 set nocompatible
 set nu
 syntax on
@@ -61,3 +65,10 @@ nnoremap reg :reg<NL>
 filetype plugin on
 
 set laststatus=2
+set splitbelow
+set splitright
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
