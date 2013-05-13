@@ -7,13 +7,13 @@
 	ui = true
 [alias]
     c = checkout
-    st = status
-    s = status
+    s = status -sb
     d = diff
     ds = diff --staged
     b = branch
     a = add
     l = log
+    lp = log --oneline
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
     p = pull
     cl = change list
