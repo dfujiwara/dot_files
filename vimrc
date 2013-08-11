@@ -1,4 +1,3 @@
-filetype plugin on
 let g:pydiction_location='/home/dfujiwara/.vim/pydiction-1.2/complete-dict'
 let g:pydiction_menu_height = 20
 
@@ -54,6 +53,17 @@ map <F7> :TlistToggle<CR>
 au BufNewFile,BufRead *.py highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%101v.\+/
 au BufNewFile,BufRead *.js highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%81v.\+/
 
+" Vundle set up
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-fugitive'
+
 let @c='^i#'
 nnoremap C @c
 let @d=':s/^/#/'
@@ -62,7 +72,7 @@ let @t='yy^i#p'
 nnoremap T @t
 nnoremap M :marks<NL>
 nnoremap reg :reg<NL>
-filetype plugin on
+filetype plugin indent on
 
 set laststatus=2
 set splitbelow
@@ -72,5 +82,3 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-execute pathogen#infect()
