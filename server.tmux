@@ -14,11 +14,15 @@ send-keys -t server:1.2 'p' C-m
 
 # Second window to run celery and output /var/log/nextdoor.log.
 new-window -n celery -t server
-send-keys -t server 'cd ~/src/nextdoor.com/apps/nextdoor' C-m
+send-keys -t server:2 'cd ~/src/nextdoor.com/apps/nextdoor' C-m
 send-keys -t server:2 'python manage.py celery worker' C-m
 
 split-window -h -t server:2 
 send-keys -t server:2.2 'tail -f /var/log/nextdoor.log' C-m
+
+# Also run the tile server
+split-window -v -t server:2.1
+send-keys -t server:2.3 'cd ~/src/nextdoor.com/apps/nextdoor && tile' C-m
 
 # Layout selection.
 #select-layout -t server main-horizontal
