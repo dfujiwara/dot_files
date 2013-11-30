@@ -4,7 +4,6 @@ source ~/.tmux.conf
 # Initializing.
 new-session -s iOS -n editor -d
 send-keys -t iOS 'cd ~/src' C-m
-send-keys -t iOS 'vim' C-m
 
 # Window set up.
 split-window -v -t iOS 
