@@ -2,4 +2,5 @@
 "\e[B": history-search-forward
 set show-all-if-ambiguous on
 set completion-ignore-case on
-
+"\C-d": kill-whole-line
+"\t": menu-complete
