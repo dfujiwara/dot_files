@@ -1,6 +1,12 @@
 "\e[A": history-search-backward
 "\e[B": history-search-forward
+
 set show-all-if-ambiguous on
 set completion-ignore-case on
-"\C-d": kill-whole-line
-"\t": menu-complete
+set expand-tilde on
+
+"\C-x\C-r": re-read-init-file
+
+# Not sure if I will ever use these.
+#"\C-d": kill-whole-line
+#"\t": menu-complete
