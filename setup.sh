@@ -5,6 +5,6 @@ script_dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 
 ln -sf $script_dir/vimrc ~/.vimrc
 ln -sf $script_dir/gitconfig ~/.gitconfig
-ln -sf $script_dir/tmux$script_dirconf ~/.tmux.conf
+ln -sf $script_dir/tmux.conf ~/.tmux.conf
 ln -sf $script_dir/inputrc ~/.inputrc
 ln -sf $script_dir/bash_aliases ~/.bash_aliases
