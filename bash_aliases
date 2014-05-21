@@ -24,3 +24,8 @@ alias server_tmux="tmux -f ~/dot_files/server.tmux attach -d"
 # iOS develeopment
 alias ios_tmux="tmux -f ~/dot_files/iOS.tmux attach -d"
 alias dns="sudo /usr/local/opt/dnsmasq/sbin/dnsmasq --keep-in-foreground"
+
+# vagrant
+alias vup="(cd ~/vagrant/dev/ && vagrant up)"
+alias vreload="(cd ~/vagrant/dev/ && vagrant reload)"
+alias vssh="(cd ~/vagrant/dev/ && vagrant ssh)"
