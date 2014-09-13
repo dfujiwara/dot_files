@@ -21,9 +21,11 @@ alias async="cd ~/src/nextdoor.com/apps/nextdoor/web/async_tasks"
 alias ve="cd ~/src/third_party/python/ve"
 alias server_tmux="tmux -f ~/dot_files/server.tmux attach -d"
 
-# iOS develeopment
+# mobile develeopment
 alias ios_tmux="tmux -f ~/dot_files/iOS.tmux attach -d"
 alias dns="sudo /usr/local/opt/dnsmasq/sbin/dnsmasq --keep-in-foreground"
+alias ios="cd ~/src/mobile/iOS"
+alias android="cd ~/src/mobile/android"
 
 # vagrant
 alias vup="(cd ~/vagrant/dev/ && vagrant up)"
