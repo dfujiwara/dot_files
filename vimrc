@@ -54,8 +54,8 @@ au BufNewFile,BufRead *.py highlight OverLength ctermbg=red ctermfg=white guibg=
 au BufNewFile,BufRead *.js highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%81v.\+/
 
 " Vundle set up
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
@@ -64,12 +64,19 @@ Bundle 'gmarik/vundle'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 
+call vundle#end()
+filetype plugin indent on  
+
 let @c='^i#'
 nnoremap C @c
 let @d=':s/^/#/'
 nnoremap D @d<NL>
 let @t='yy^i#p'
 nnoremap T @t
+
+let @b='iimport ipdb; ipdb.set_trace()'
+nnoremap B @b
+
 nnoremap M :marks<NL>
 nnoremap reg :reg<NL>
 filetype plugin indent on
