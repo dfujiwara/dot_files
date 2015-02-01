@@ -18,3 +18,4 @@
     p = pull
     cl = change list
     cgc = change gc
+    r = reset
