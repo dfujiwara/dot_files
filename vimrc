@@ -87,6 +87,11 @@ set laststatus=2
 set splitbelow
 set splitright
 
+" Keyboard mapping
+let mapleader = "\<space>"
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
