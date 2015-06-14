@@ -89,8 +89,14 @@ set splitright
 
 " Keyboard mapping
 let mapleader = "\<space>"
+
+" Save and quit
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
+
+" Manipulate vimrc
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC<CR>
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
