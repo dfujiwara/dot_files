@@ -35,6 +35,8 @@ au FileType html set tabstop=2
 au BufRead,BufNewFile *.json set filetype=json
 au! Syntax json source /Users/daisukefujiwara/.vim/ftplugin/json.vim
 
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+autocmd BufRead,BufNewFile *.md setlocal spell
 " NERD_tree config
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
