@@ -13,27 +13,32 @@ send-keys -t server:1.2 'p' C-m
 #select-layout -t server main-horizontal
 
 # Second window to run celery and output /var/log/nextdoor.log.
-new-window -n celery -t server
+new-window -n taskworker -t server
 send-keys -t server:2 'cd ~/src/nextdoor.com/apps/nextdoor' C-m
-send-keys -t server:2 'python manage.py celery worker' C-m
+send-keys -t server:2 'python manage.py taskworker' C-m
 
+# Start logging the nextdoor.log output in a pretty format.
 split-window -h -t server:2 
-send-keys -t server:2.2 'tail -f /var/log/nextdoor.log' C-m
+send-keys -t server:2.2 'tl' C-m
 
-# Also run the tile server
+# Also run open a shell in the docker directory. 
 split-window -v -t server:2.1
-send-keys -t server:2.3 'cd ~/src/nextdoor.com/apps/nextdoor && tile' C-m
+send-keys -t server:2.3 'cd ~/src/docker-foundry/' C-m
 
 # Layout selection.
 #select-layout -t server main-horizontal
 
 # Third window in the mobile directory.
-new-window -n mobile -t server
+new-window -n mobile_api -t server
 send-keys -t server:3 'mobile' C-m
 
-# Four window in the web directory.
+# Fourth window in the common directory.
 new-window -n web -t server
 send-keys -t server:4 'web' C-m
+
+# Fourth window in the common directory.
+new-window -n common -t server
+send-keys -t server:5 'common' C-m
 
 # Window selection; start in the mobile window.
 select-window -t server:3
