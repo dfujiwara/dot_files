@@ -27,6 +27,9 @@ alias dns="sudo /usr/local/opt/dnsmasq/sbin/dnsmasq --no-daemon --log-queries"
 alias ios="cd ~/src/mobile/iOS"
 alias android="cd ~/src/mobile/android"
 alias hosts="sudo vim /etc/hosts"
+alias ifc="ifconfig"
+alias xcode="open -a /Applications/Xcode.app ~/src/mobile/iOS/Nextdoor.xcworkspace"
+alias astudio="open -a '/Applications/Android Studio.app'"
 
 # vagrant
 alias vup="(cd ~/vagrant/dev/ && vagrant up)"
