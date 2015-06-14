@@ -12,10 +12,11 @@
     ds = diff --staged
     b = branch
     a = add
-    l = log --abbrev-commit
-    ls = log --oneline
+    l = log 
+    ls = log --pretty=oneline
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
     p = pull
     cl = change list
     cgc = change gc
     r = reset
+    ld = log --no-merges --cherry --pretty=oneline
