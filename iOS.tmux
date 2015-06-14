@@ -2,16 +2,16 @@
 source ~/.tmux.conf
 
 # Initializing.
-new-session -s iOS -n ide -d
-send-keys -t iOS 'cd ~/src/mobile/iOS/' C-m
-send-keys -t iOS 'open -a /Applications/Xcode.app Nextdoor.xcworkspace' C-m
+new-session -s mobile -n iOS -d
+send-keys -t mobile 'cd ~/src/mobile/iOS/' C-m
+send-keys -t mobile 'open -a /Applications/Xcode.app Nextdoor.xcworkspace' C-m
 
 # Creating more windows.
-new-window -n dns -t iOS
-send-keys -t iOS:2 'dns' C-m
+new-window -n Android -t mobile
+send-keys -t mobile:2 'cd ~/src/android' C-m
 
-new-window -n shell -t iOS
-send-keys -t iOS 'cd ~/src/mobile/iOS/' C-m
+new-window -n shell -t mobile
+send-keys -t mobile 'cd ~/src/mobile/iOS/' C-m
 
 # Window selection.
-select-window -t iOS:1
+select-window -t mobile:1
