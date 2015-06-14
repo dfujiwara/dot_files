@@ -76,9 +76,6 @@ nnoremap D @d<NL>
 let @t='yy^i#p'
 nnoremap T @t
 
-let @b='iimport ipdb; ipdb.set_trace()'
-nnoremap B @b
-
 nnoremap M :marks<NL>
 nnoremap reg :reg<NL>
 filetype plugin indent on
@@ -102,3 +99,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+
+" Abbreviations
+
+" Python specific abbreviations.
+iabbrev ipdb import ipdb; ipdb.set_trace()
