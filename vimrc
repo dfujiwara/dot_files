@@ -15,6 +15,7 @@ set path=.,~/src/**
 set tags=~/tags/tags
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\
 \ [%l/%L\ (%p%%)
+
 au FileType py set autoindent
 au FileType py set smartindent
 au FileType py set textwidth=79 " PEP-8 Friendly
@@ -36,7 +37,10 @@ au BufRead,BufNewFile *.json set filetype=json
 au! Syntax json source /Users/daisukefujiwara/.vim/ftplugin/json.vim
 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+autocmd BufNewFile,BufReadPost *.go set filetype=go
 autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.md setlocal textwidth=80 
+
 " NERD_tree config
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
