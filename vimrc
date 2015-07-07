@@ -94,6 +94,7 @@ let mapleader = "\<space>"
 " Save and quit
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
+nnoremap <leader>wq :wq<CR>
 
 " Manipulate vimrc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
