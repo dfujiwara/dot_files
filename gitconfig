@@ -21,3 +21,4 @@
     cgc = change gc
     r = reset
     ld = log --no-merges --cherry --pretty=oneline
+    cb = !git branch --merged master | grep -v 'master' | grep -v '*' | xargs -n 1 git branch -d
