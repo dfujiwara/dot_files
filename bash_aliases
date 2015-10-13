@@ -35,3 +35,13 @@ alias astudio="open -a '/Applications/Android Studio.app'"
 alias vup="(cd ~/vagrant/dev/ && vagrant up)"
 alias vreload="(cd ~/vagrant/dev/ && vagrant reload)"
 alias vssh="(cd ~/vagrant/dev/ && vagrant ssh)"
+
+# phabricator
+alias adiff="arc diff"
+alias aland="arc land"
+
+# git shortcuts
+alias ga="git a ."
+alias gc="git c"
+alias gs="git s"
+alias gp="git p"
