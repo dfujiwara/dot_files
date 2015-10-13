@@ -8,6 +8,7 @@
 [alias]
     c = checkout
     ct = commit
+    cta = commit --amend
     f = fetch 
     s = status -sb
     d = diff
