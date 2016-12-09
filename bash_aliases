@@ -37,7 +37,7 @@ alias vreload="(cd ~/vagrant/dev/ && vagrant reload)"
 alias vssh="(cd ~/vagrant/dev/ && vagrant ssh)"
 
 # phabricator
-alias adiff="arc diff"
+alias adiff="arc diff HEAD^"
 alias aland="arc land"
 
 # git shortcuts
