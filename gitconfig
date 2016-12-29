@@ -1,6 +1,7 @@
 [user]
 	name = Daisuke Fujiwara
 	email = daisuke@nextdoor.com
+	username = daisuke
 [core]
 	editor = vim
 [color]
@@ -9,12 +10,14 @@
     c = checkout
     ct = commit
     cta = commit --amend
+    ctae = commit --amend --no-edit
     f = fetch 
     s = status -sb
     d = diff
     ds = diff --staged
     b = branch
     a = add
+    ap = add -p
     l = log 
     ls = log --pretty=oneline --decorate
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
