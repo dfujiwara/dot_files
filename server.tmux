@@ -4,7 +4,7 @@ source ~/.tmux.conf
 # First window to run server and psql.
 new-session -s server -n run_server -d
 send-keys -t server 'cd ~/src/nextdoor.com/apps/nextdoor' C-m
-send-keys -t server 'server' C-m
+send-keys -t server 'runserver' C-m
 
 split-window -h -t server:1
 send-keys -t server:1.2 'p' C-m
