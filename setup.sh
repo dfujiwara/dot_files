@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Sets up all the necessary dot files in this repo$script_dir
+# Sets up all the necessary dot files in this repo
 script_dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 
 ln -sf $script_dir/vimrc ~/.vimrc
