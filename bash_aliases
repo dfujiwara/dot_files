@@ -17,3 +17,6 @@ alias ga="git a ."
 alias gc="git c"
 alias gs="git s"
 alias gp="git p"
+
+# tmux alias
+alias tt="tmux attach -t daisuke"
