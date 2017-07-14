@@ -11,6 +11,8 @@ alias hosts="sudo vim /etc/hosts"
 alias ifc="ifconfig"
 alias xcode="open -a /Applications/Xcode.app ~/src/mobile/iOS/Nextdoor.xcworkspace"
 alias astudio="open -a '/Applications/Android Studio.app'"
+alias sl="swiftlint"
+alias sc="swiftlint autocorrect"
 
 # git shortcuts
 alias ga="git a ."
