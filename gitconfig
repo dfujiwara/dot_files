@@ -17,6 +17,7 @@
     ds = diff --staged
     b = branch
     a = add
+    au = add -u
     ap = add -p
     l = log 
     ls = log --pretty=oneline --decorate
