@@ -31,3 +31,5 @@
     cb = !git branch --merged master | grep -v 'master' | grep -v '*' | xargs -n 1 git branch -d
 [remote "origin"]
 	prune = true
+[pull]
+	rebase = true
