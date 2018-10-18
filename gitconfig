@@ -28,6 +28,7 @@
     ld = log --no-merges --cherry --pretty=oneline
     cb = !git branch --merged master | grep -v 'master' | grep -v '*' | xargs -n 1 git branch -d
     bp = !hub browse -- pulls
+    bb = !hub browse -- branches 
     opr = !hub pull-request
 [remote "origin"]
 	prune = true
