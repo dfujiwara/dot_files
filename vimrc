@@ -59,18 +59,6 @@ map <F7> :TlistToggle<CR>
 au BufNewFile,BufRead *.py highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%101v.\+/
 au BufNewFile,BufRead *.js highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%81v.\+/
 
-" Vundle set up
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-fugitive'
-
-call vundle#end()
 filetype plugin indent on  
 
 let @c='^i#'
