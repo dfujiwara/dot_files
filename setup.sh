@@ -11,3 +11,9 @@ ln -sf $script_dir/bash_aliases ~/.bash_aliases
 
 # Xcode keybindings set up
 ln -sf $script_dir/iOS/Daisuke.idekeybindings  ~/Library/Developer/Xcode/UserData/KeyBindings/Daisuke.idekeybindings 
+
+# Vim plugin set up
+vim_pack_dir=~/.vim/pack/plugins
+mkdir -p $vim_pack_dir
+git clone https://github.com/itchyny/lightline.vim $vim_pack_dir/start/lightline
+
