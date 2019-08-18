@@ -1,7 +1,10 @@
 let g:pydiction_location='/home/dfujiwara/.vim/pydiction-1.2/complete-dict'
 let g:pydiction_menu_height = 20
 
+
 set nocompatible
+" This is to use https://github.com/itchyny/lightline.vim
+set noshowmode
 set nu
 syntax on
 set hlsearch 
