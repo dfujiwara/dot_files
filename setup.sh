@@ -16,4 +16,5 @@ ln -sf $script_dir/iOS/Daisuke.idekeybindings  ~/Library/Developer/Xcode/UserDat
 vim_pack_dir=~/.vim/pack/plugins
 mkdir -p $vim_pack_dir
 git clone https://github.com/itchyny/lightline.vim $vim_pack_dir/start/lightline
+git clone https://github.com/scrooloose/nerdtree.git $vim_pack_dir/start/nerdtree
 

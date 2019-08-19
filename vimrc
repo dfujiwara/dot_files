@@ -24,14 +24,8 @@ au FileType py set smartindent
 au FileType py set textwidth=79 " PEP-8 Friendly
 au FileType py set foldmethod=indent
 
-au FileType coffee set shiftwidth=2
-au FileType coffee set tabstop=2
-
 au FileType javascript set shiftwidth=2
 au FileType javascript set tabstop=2
-
-au FileType htmldjango set shiftwidth=2
-au FileType htmldjango set tabstop=2
 
 au FileType html set shiftwidth=2
 au FileType html set tabstop=2
@@ -49,7 +43,7 @@ let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
-map <F3> :NERDTreeToggle<CR>
+map <C-N> :NERDTreeToggle<CR>
 
 " TagList Plugin Configuration
 " let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
