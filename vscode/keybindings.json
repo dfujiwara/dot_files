@@ -8,5 +8,10 @@
         "key": "cmd+t",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "filesExplorerFocus"
     }
 ]
