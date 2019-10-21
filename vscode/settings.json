@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vs-minimal",
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
