@@ -13,5 +13,13 @@
         "key": "cmd+0",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "filesExplorerFocus"
-    }
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "workbench.action.moveEditorToNextGroup",
+    },
+    {
+        "key": "ctrl+cmd+left",
+        "command": "workbench.action.moveEditorToPreviousGroup",
+    },
 ]
