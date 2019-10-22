@@ -1,0 +1,9 @@
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+ms-azuretools.vscode-docker
+ms-python.python
+ms-vscode.Go
+Orta.vscode-jest
+streetsidesoftware.code-spell-checker
+vscodevim.vim
