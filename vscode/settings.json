@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vs-minimal",
+    "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,

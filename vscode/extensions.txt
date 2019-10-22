@@ -1,9 +1,12 @@
+CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
 ms-azuretools.vscode-docker
 ms-python.python
 ms-vscode.Go
+oderwat.indent-rainbow
 Orta.vscode-jest
 streetsidesoftware.code-spell-checker
+vscode-icons-team.vscode-icons
 vscodevim.vim
