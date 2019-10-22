@@ -5,9 +5,13 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
+    "workbench.editor.highlightModifiedTabs": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
     "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "explorer.sortOrder": "type",
     "[javascript]": {
         "editor.formatOnSave": true
     },
