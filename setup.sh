@@ -28,10 +28,12 @@ git clone https://github.com/itchyny/lightline.vim $vim_pack_dir/start/lightline
 git clone https://github.com/scrooloose/nerdtree.git $vim_pack_dir/start/nerdtree
 git clone https://github.com/ctrlpvim/ctrlp.vim $vim_pack_dir/start/ctrlp
 
-
 # MacOS applications
 brew cask install rectangle
 brew cask install flux
 brew cask install docker
+
+# zsh 
+ln -sf $script_dir/zshrc ~/.zshrc
 
 echo 'Done'
