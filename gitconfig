@@ -36,3 +36,5 @@
 	rebase = true
 [rebase]
 	autosquash = true
+[pager]
+	branch = false
