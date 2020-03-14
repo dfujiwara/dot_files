@@ -30,6 +30,9 @@
     bp = !hub browse -- pulls
     bb = !hub browse -- branches 
     opr = !hub pull-request
+    prv = !gh pr view
+    prc = !gh pr create
+
 [remote "origin"]
 	prune = true
 [pull]
