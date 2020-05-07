@@ -7,7 +7,7 @@ set nocompatible
 set noshowmode
 set nu
 syntax on
-set hlsearch 
+set hlsearch
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -36,7 +36,7 @@ au! Syntax json source /Users/daisukefujiwara/.vim/ftplugin/json.vim
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 autocmd BufNewFile,BufReadPost *.go set filetype=go
 autocmd BufRead,BufNewFile *.md setlocal spell
-autocmd BufRead,BufNewFile *.md setlocal textwidth=80 
+autocmd BufRead,BufNewFile *.md setlocal textwidth=80
 
 " NERD_tree config
 let NERDTreeChDirMode=2
@@ -56,7 +56,7 @@ map <F7> :TlistToggle<CR>
 au BufNewFile,BufRead *.py highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%101v.\+/
 au BufNewFile,BufRead *.js highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%81v.\+/
 
-filetype plugin indent on  
+filetype plugin indent on
 
 let @c='^i#'
 nnoremap C @c
@@ -90,6 +90,7 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+nnoremap tbe :tabedit<space>
 
 " Abbreviations
 
