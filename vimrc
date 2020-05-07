@@ -43,7 +43,7 @@ let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
-map <C-N> :NERDTreeToggle<CR>
+nnoremap <C-N> :NERDTreeToggle<CR>
 
 " TagList Plugin Configuration
 " let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
@@ -51,7 +51,7 @@ let Tlist_GainFocus_On_ToggleOpen = 1
 let Tlist_Close_On_Select = 1
 let Tlist_Use_Right_Window = 1
 let Tlist_File_Fold_Auto_Close = 1
-map <F7> :TlistToggle<CR>
+nnoremap <F7> :TlistToggle<CR>
 
 au BufNewFile,BufRead *.py highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%101v.\+/
 au BufNewFile,BufRead *.js highlight OverLength ctermbg=red ctermfg=white guibg=#592929 | match OverLength /\%81v.\+/
