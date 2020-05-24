@@ -46,4 +46,15 @@ tmux_plugin_dir=~/.tmux/plugins
 mkdir -p $tmux_plugin_dir
 git clone https://github.com/tmux-plugins/tmux-cpu $tmux_plugin_dir/tmux-cpu
 
+# .config setups
+for config_dir in $(ls $script_dir/config)
+do
+    mkdir -p ~/.config/$config_dir
+    for config_file in $(ls $script_dir/config/$config_dir)
+    do
+        echo "Symlinking $config_dir/$config_file in ~.config/$config_dir"
+        ln -sfv $script_dir/config/$config_dir/$config_file ~/.config/$config_dir
+    done
+done
+
 echo 'Done'
