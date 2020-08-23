@@ -11,7 +11,7 @@
     ct = commit
     cta = commit --amend
     ctae = commit --amend --no-edit
-    f = fetch 
+    f = fetch
     s = status -sb
     d = diff
     ds = diff --staged
@@ -19,7 +19,7 @@
     a = add
     au = add -u
     ap = add -p
-    l = log 
+    l = log
     ls = log --pretty=oneline --decorate
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
     p = pull --prune
@@ -28,10 +28,12 @@
     ld = log --no-merges --cherry --pretty=oneline
     cb = !git branch --merged master | grep -v 'master' | grep -v '*' | xargs -n 1 git branch -d
     bp = !hub browse -- pulls
-    bb = !hub browse -- branches 
+    bb = !hub browse -- branches
     opr = !hub pull-request
     prv = !gh pr view
     prc = !gh pr create
+    prs = !gh pr status
+    prm = !gh pr merge -s -d
 
 [remote "origin"]
 	prune = true
