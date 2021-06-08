@@ -21,5 +21,15 @@
     {
         "key": "alt+[",
         "command": "workbench.action.moveEditorToPreviousGroup",
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     }
 ]
