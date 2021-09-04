@@ -43,3 +43,5 @@
 	autosquash = true
 [pager]
 	branch = false
+[help]
+	autocorrect = 1
