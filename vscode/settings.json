@@ -25,5 +25,6 @@
     "terminal.integrated.macOptionIsMeta": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "breadcrumbs.enabled": false
 }
