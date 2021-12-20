@@ -1,7 +1,6 @@
 {
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
@@ -29,5 +28,8 @@
     "breadcrumbs.enabled": false,
     "workbench.colorCustomizations": {
         "tab.activeBorder": "#ff0000",
-    }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
 }
