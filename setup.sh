@@ -30,6 +30,8 @@ git clone https://github.com/ctrlpvim/ctrlp.vim $vim_pack_dir/start/ctrlp
 
 # Terminal commands
 brew install tree
+brew install fish
+brew install gh
 
 # MacOS applications
 brew install rectangle
