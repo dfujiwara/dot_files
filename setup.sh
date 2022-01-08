@@ -32,9 +32,9 @@ git clone https://github.com/ctrlpvim/ctrlp.vim $vim_pack_dir/start/ctrlp
 brew install tree
 
 # MacOS applications
-brew cask install rectangle
-brew cask install flux
-brew cask install docker
+brew install rectangle
+brew install flux
+brew install docker
 
 # zsh + plugins
 ln -sf $script_dir/zshrc ~/.zshrc
