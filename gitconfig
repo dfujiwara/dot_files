@@ -30,8 +30,8 @@
     bp = !hub browse -- pulls
     bb = !hub browse -- branches
     opr = !hub pull-request
-    prv = !gh pr view
-    prc = !gh pr create
+    prv = !gh pr view --web
+    prc = !gh pr create --fill
     prs = !gh pr status
     prm = !gh pr merge -s -d
 
