@@ -32,20 +32,16 @@ git clone https://github.com/itchyny/lightline.vim $vim_pack_dir/start/lightline
 git clone https://github.com/scrooloose/nerdtree.git $vim_pack_dir/start/nerdtree
 git clone https://github.com/ctrlpvim/ctrlp.vim $vim_pack_dir/start/ctrlp
 
+echo "Installing command + apps via brew"
 # Terminal commands
-brew install tree
-brew install fish
-brew install gh
+brew install --quiet tree
+brew install --quiet fish
+brew install --quiet gh
 
 # MacOS applications
-brew install rectangle
-brew install flux
-brew install docker
-
-# zsh + plugins
-ln -sf $script_dir/zshrc ~/.zshrc
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+brew install --quiet rectangle
+brew install --quiet flux
+brew install --quiet docker
 
 # tmux plugins
 tmux_plugin_dir=~/.tmux/plugins
