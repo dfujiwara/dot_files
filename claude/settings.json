@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(docker compose *)",
+      "Bash(find:*)",
+      "Bash(gh pr:*)",
+      "Bash(git add *)",
+      "Bash(git branch *)",
+      "Bash(git commit *)",
+      "Bash(git mv:*)",
+      "Bash(git reset *)",
+      "Bash(git restore *)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(psql:*)",
+      "Bash(test:*)",
+      "Bash(tree:*)",
+      "Bash(uv run *)",
+      "Bash(uv sync:*)",
+      "Bash(wc:*)",
+      "Skill(api-test)",
+      "Skill(git-commit)",
+      "Skill(psql)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "default"
+  },
+  "alwaysThinkingEnabled": true,
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "osascript -e 'display notification \"Claude Code needs your attention\" with title \"Claude Code\"'"
+          }
+        ]
+      }
+    ]
+  }
+}
