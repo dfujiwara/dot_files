@@ -34,6 +34,7 @@
     prc = !gh pr create --fill
     prs = !gh pr status
     prm = !gh pr merge -s -d
+    wt = worktree
 
 [remote "origin"]
 	prune = true
