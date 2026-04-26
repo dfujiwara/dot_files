@@ -6,12 +6,15 @@
       "Bash(docker compose *)",
       "Bash(find:*)",
       "Bash(gh pr:*)",
+      "Bash(gh api:*)",
       "Bash(git add *)",
       "Bash(git branch *)",
       "Bash(git commit *)",
       "Bash(git mv:*)",
       "Bash(git reset *)",
+      "Bash(git show *)",
       "Bash(git restore *)",
+      "Bash(git stash *)",
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Bash(mkdir:*)",
@@ -30,7 +33,6 @@
     "ask": [],
     "defaultMode": "default"
   },
-  "alwaysThinkingEnabled": true,
   "hooks": {
     "Notification": [
       {
@@ -43,5 +45,8 @@
         ]
       }
     ]
-  }
+  },
+  "alwaysThinkingEnabled": true,
+  "voiceEnabled": true,
+  "editorMode": "vim"
 }
